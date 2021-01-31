@@ -1,0 +1,439 @@
+body {
+  background: #f3f3f3;
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: bolder;
+  line-height: 3.5rem;
+}
+h2 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+h3 {
+  font-size: 2.75rem;
+}
+.light-text {
+  color: rgb(235, 233, 233);
+}
+.text-blue {
+  color: rgb(47, 47, 71);
+}
+.btn-outline {
+  background: rgb(47, 47, 71);
+  color: white;
+}
+.btn-outline:hover {
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 10px 0 rgb(47, 47, 71) inset, 0 0 10px 4px rgb(47, 47, 71);
+}
+.btn-outline-light {
+  background-color: white;
+  color: rgb(47, 47, 71);
+}
+.btn-outline-light:hover {
+  color: rgb(47, 47, 71);
+  text-decoration: none;
+  box-shadow: 0 0 10px 0 white inset, 0 0 10px 4px white;
+}
+
+
+
+/* ---------------------NAVBAR SECTION STARTS ----------------------------------------*/
+#logo {
+  margin-right: 25px;
+}
+.navbar {
+  background: #f3f3f3;
+  box-shadow: 0 4px 6px 0 rgb(87, 87, 87);
+  min-height: 80px;
+}
+.nav-link {
+  font-size: larger;
+  color: rgb(47, 47, 71) !important;
+}
+.nav-link:hover {
+  border-bottom: 2px solid rgb(47, 47, 71);
+}
+.nav-item .active {
+  border-bottom: 2px solid rgb(47, 47, 71);
+}
+/* NAVBAR SECTION ENDS */
+
+/* HOME SECTION STARTS */
+#home {
+  margin-top: 3rem;
+}
+.input-first {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(47, 47, 71);
+}
+.input-first:focus {
+  background: none;
+  outline: none;
+  border-bottom: 1px solid rgb(47, 47, 71);
+  box-shadow: none;
+}
+/* ------------------------------HOME SECTION ENDS------------------------------ */
+
+
+
+/* ------------------------------SERVICES SECTION STARTS ------------------------*/
+.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("forest.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.masthead h1 {
+  font-size: 3rem;
+}
+.features-icons {
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  color: rgb(47, 47, 71);
+}
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 5rem;
+}
+/* ------------------------------SERVICES SECTION ENDS------------------------------ */
+
+
+
+/* -----------------------------GALLERY SECTION STARTS------------------------------ */
+#gallery {
+  background: #e7e6e6;
+}
+.content-center {
+  max-width: 1020px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  padding: 6rem 0;
+}
+.content-center h2 {
+  margin-bottom: 6rem;
+}
+.gallery-single {
+  margin-bottom: 30px;
+}
+.gallery-single {
+  position: relative;
+  overflow: hidden;
+}
+.why-text {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -100%;
+  height: 100%;
+  background: rgba(53, 59, 94, 0.7);
+  padding: 12px 12px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.why-text p {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.gallery-single:hover .why-text {
+  bottom: 0px;
+}
+/* .login {
+  background: rgb(235, 233, 233);
+  padding: 7rem 0;
+} */
+.form-row h2 {
+  text-align: center;
+}
+.md {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+/* ------------------------------GALLERY SECTION ENDS------------------------------ */
+
+
+
+/* -----------------------------REVIEWS SECTION STARTS------------------------------*/
+.carousel {
+  position: relative;
+}
+.carousel-inner {
+  position: relative;
+  width: 60rem;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  padding: 3rem;
+  margin-left: 15rem;
+  overflow: hidden;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+.pb-6 {
+  padding-bottom: 6rem;
+}
+.prev,
+.next {
+  font-size: 48px;
+  color: rgb(47, 47, 71);
+}
+/* -----------------------------REVIEWS SECTION ENDS------------------------------ */
+
+/* ----------------------------PRICING SECTION STARTS ----------------------------*/
+#pricing {
+  padding: 7rem 0;
+  background-color: rgb(235, 233, 233);
+}
+.table-blue {
+  margin-top: 3rem 0;
+  background: rgb(47, 47, 71);
+  color: #f3f3f3;
+}
+.pt-5 {
+  padding-top: 6rem !important;
+}
+.col-lg-4 {
+  margin: 3rem 0;
+}
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+td:hover {
+  background: rgb(53, 59, 94);
+  color: #f3f3f3;
+}
+td a:hover {
+  text-decoration: none;
+  color: white;
+}
+.fs-3 {
+  font-size: 1.2rem;
+}
+
+.bi-wifi {
+  font-size: 1.7rem;
+}
+.bi-check2,
+.bi-x {
+  font-size: 1.5rem;
+}
+/* ------------------------------PRICING SECTION ENDS ------------------------------*/
+
+
+
+/*------------------------------ CONTACT SECTION STARTS ----------------------------*/
+.contact {
+  background: rgb(214, 214, 214);
+  padding: 7rem 0;
+  float: left;
+  width: 100%;
+}
+.contact h3 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  display: inline-block;
+  line-height: 5rem;
+}
+.contact-form {
+  margin-top: 3rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.7rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(47, 47, 71);
+  border: none;
+  border-bottom: 2px solid rgb(47, 47, 71);
+  resize: none;
+  margin-top: 25px;
+}
+.form-control:focus {
+  background: transparent;
+  box-shadow: none;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 2px solid rgb(47, 47, 71);
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: rgb(47, 47, 71) !important;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: rgb(47, 47, 71) !important;
+}
+.contact-button {
+  border: none;
+  padding: 12px 35px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: rgb(47, 47, 71);
+  margin-top: 30px;
+}
+.contact-button:hover {
+  background: rgb(47, 47, 71);
+}
+.address {
+  color: #242424;
+  margin-top: 3rem;
+}
+.address h4 {
+  color: rgb(47, 47, 71);
+  font-size: 22px;
+}
+.address p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.email i {
+  color: rgb(47, 47, 71);
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.email {
+  padding-top: 15px;
+}
+/*------------------------------ CONTACT SECTION ENDS------------------------------*/
+
+
+
+/* ------------------------------FOOTER SECTION STARTS------------------------------ */
+.footer_blog ul li {
+  margin-bottom: 15px;
+  display: flex;
+  line-height: normal;
+}
+.footer_blog ul li img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  position: relative;
+  top: 1px;
+}
+footer {
+  width: 100%;
+  float: left;
+  background: rgb(47, 47, 71);
+  color: #f3f3f3;
+}
+footer.footer-box p {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #ddd !important;
+}
+.img-responsive {
+  width: 70px;
+  height: 40px;
+}
+.white_fonts {
+  text-align: justify;
+}
+.time_table {
+  float: left;
+  width: 45%;
+}
+footer ul.time_table li {
+  color: #ddd !important;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.footer_blog {
+  float: left;
+  width: 100%;
+}
+ul.bottom_menu li a {
+  color: #8d8d8c;
+}
+ul.bottom_menu li {
+  float: left;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+ul.social_icon {
+  list-style: none;
+}
+ul.social_icon li a {
+  width: auto;
+  height: auto;
+  color: #fff !important;
+  float: left;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 22px;
+  margin-right: 15px;
+}
+ul.social_icon li i {
+  color: #fff;
+}
+ul.social_icon li {
+  float: left;
+  margin: 0 5px;
+}
+/* --------------------------------------FOOTER SECTION ENDS------------------------------ */
+
+/* 
+ Referencias imagenes:
+     
+        cabecera:
+        https://www.google.com/search?q=forest+blue&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjKvIzYg7LuAhUqTxUIHWPwAkQQ_AUoAXoECBUQAw&biw=1462&bih=794#imgrc=cWxeDdTtyOgyZM&imgdii=6Hm99nNA8C7X4M
+     
+      galeria 1: https://www.pinterest.es/pin/287315651215952557/
+      galería 2: https://www.pinterest.es/pin/385057836890995951/
+      galería 3: https://www.pinterest.cl/pin/636274253599877270/
+      galería 4: https://www.photowall.es/foggy-forest-4-papel-pintado
+      galería 5: https://www.pinterest.es/pin/491314640590308649/
+      galería 6: https://www.pinterest.es/pin/334392341084801435/
+
+        galería 7:
+        https://www.pinterest.es/pin/50172983338380959/?d=t&mt=signupOrPersonalizedLogin
+      
+    
+        galería 8:
+        https://www.pinterest.es/pin/738660776373336726/?d=t&mt=signup
+      
+    
+        galería 9:
+        https://www.pinterest.es/pin/815010863795529916/?d=t&mt=signupOrPersonalizedLogin
+*/
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootsrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+   
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Document</title>
+</head>
+<body>
+    <section id="reservation">
+        <!-- Start Reservation -->
+	<div class="reservation-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center text-blue">
+						<h2>Books</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 col-xs-12">
+					<div class="contact-block">
+						<form id="contactForm">
+							<div class="row">
+								<div class="col-md-6">
+									<h3 class="text-blue">Book a house</h3>
+									<div class="col-md-12">
+										<div class="form-group">
+                                            <input id="input_date" class="datepicker picker__input form-control" name="date" type="date" value="" >
+											
+										</div>                                 
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+                                            <select class="custom-select d-block form-control" id="house">
+                                                <option disabled selected>Select House*</option>
+                                                <option value="1">Platform</option>
+                                                <option value="2">Piramidal</option>
+                                                <option value="3">Lake</option>
+                                                <option value="4">Hidden</option>
+                                                <option value="5">Holding</option>
+                                                <option value="6">Wooden</option>
+                                                <option value="7">Dark triangle</option>
+                                                <option value="8">Glass</option>
+                                                <option value="9">Wooden T</option>
+                                              </select>
+										</div>                                 
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<select class="custom-select d-block form-control" id="person" >
+											  <option disabled selected>Select Person*</option>
+											  <option value="1">1</option>
+											  <option value="2">2</option>
+											  <option value="3">3</option>
+											  <option value="4">4</option>
+											  <option value="5">5</option>
+											  <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+											</select>
+										</div> 
+									</div>
+								</div>
+								<div class="col-md-6">
+									<h3 class="text-blue">Contact Details</h3>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+										</div>                                 
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" placeholder="Your Email" id="email" class="form-control" name="email">
+										</div> 
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" placeholder="Your Number" id="phone" class="form-control" name="phone">
+										</div> 
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="submit-button text-center">
+										<button class="btn btn-outline mb-3 mt-3" id="submit" type="submit">Book House</button>
+										<div id="msgSubmit" class="h3 text-center hidden"></div> 
+										<div class="clearfix"></div> 
+									</div>
+								</div>
+							</div>            
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 white_fonts">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="full">
+                <img class="img-responsive" src="logo.jpg" alt="#" />
+              </div>
+              <div class="full white_fonts">
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't
+                  look even slightly
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="full">
+                <div class="footer_blog full white_fonts">
+                  <h4>ADDRESS</h4>
+                  <p>
+                    Address: 2nd Start to the right, Neverland<br />Tel: 123 456 789
+                   <br /><br />Email:
+                    askforpeter@neverland.com
+                  </p>
+                </div>
+                <div class="full">
+                  <ul class="social_icon">
+                    <li>
+                      <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="full">
+                <div class="footer_blog full white_fonts">
+                  <h4>OUR TIMINGS</h4>
+                </div>
+                <div class="full timetable_blog">
+                  <ul class="time_table text_align_left">
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                    <li>Sunday</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
