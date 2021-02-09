@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icons -->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilos_bus.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-blue fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home"><img src="logo.jpg" width="100px" height="45px"
+            /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle bg-blue" href="#routes" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Routes
+              </a>
+              <ul class="dropdown-menu bg-blue" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item bg-blue" href="#routes">Our routes</a></li>
+                <li><a class="dropdown-item bg-blue" href="national.html">National routes</a></li>
+                <li><a class="dropdown-item bg-blue" href="international.html">International routes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="books.html">Buy tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="masthead text-dark text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 mx-auto">
+              <h1 class="mb-5 text-blue text-uppercase">
+                Making your trip easier
+              </h1>
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="autoSizingInput"
+                    placeholder="From"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="autoSizingInputGroup"
+                    placeholder="To"
+                  />
+                </div>
+                <div class="col">
+                  <select class="form-control" id="autoSizingSelect">
+                    <option selected>Sits</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <button type="submit" class="button mt-4 mr-3">
+                    <a href="books.html">Buy</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="page-section pt-5 mb-5">
+      <div class="container">
+        <h2 class="text-center text-lighter text-uppercase bolder mb-4 ft-5">
+          Our Services
+        </h2>
+        <div class="row ss">
+          <div class="col-lg-3 mt-5 col-md-6 text-center">
+            <div class="mt-5 mb-5">
+              <i class="fas fa-bus-alt text-dark mb-3 fa-4x"></i>
+              <h3 class="h3 mb-2"><a href="#renting">Renting</a></h3>
+              <p class="subtext mb-0">
+                Our buses are rented for special ocassions!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-5 col-md-6 text-center">
+            <div class="mt-5 mb-5">
+              <i class="fas fa-map-marked-alt text-dark mb-3 fa-4x"></i>
+              <h3 class="h3 mb-2"><a href="#trip">Trips</a></h3>
+              <p class="subtext mb-0">
+                We have a quota of buses available for trips.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-5 col-md-6 text-center">
+            <div class="mt-5 mb-5">
+              <i class="fas fa-globe-europe text-dark mb-3 fa-4x"></i>
+              <h3 class="h3 mb-2">
+                <a href="#routes"> Routes</a>
+              </h3>
+              <p class="subtext mb-0">National and international routes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="rent">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col col-rent">
+            <img
+              class="mt-5"
+              src="rentabus.jpg"
+              alt="https://www.freevector.com/vector/bus"
+            />
+          </div>
+          <div class="col col-rent">
+            <h2 id="renting" class="text-center text-light mb-4 ft-4">
+              Rent a bus
+            </h2>
+            <p>
+              If you're looking for a bus to rent, this is your place. We put at
+              your disposal vehicles with different capacities, which stand out
+              for their comfort and safety. In addition, we also have buses that
+              have the most modern equipment, as well as extra space for hand
+              luggage. Choose the one that best suits your needs.
+            </p>
+            <div class="row">
+              <div class="col-6">
+                <h4 class="pt-3 mb-4 bolder text-lighter">Buses available</h4>
+                <ul>
+                  <li class="ml-3">Microbus: 10-19 seats.</li>
+                  <li class="ml-3">Bus: 20- 40 seats.</li>
+                  <li class="ml-3">Bus Plus: 41-60 seats.</li>
+                </ul>
+              </div>
+              <div class="row">
+                <button class="button mt-3 mb-2 ml-4">
+                  <a href="contacto.html">Request budget</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-5 mb-6" id="trip">
+      <div class="container-fluid">
+        <h2 class="text-center text-lighter text-uppercase bolder pb-4 ft-5">
+          Trip
+        </h2>
+        <div class="row">
+          <div class="col-6 col-md-4 bg-blue pt-5 pb-5">
+            <h4 class=" mb-4">Rate and discounts</h4>
+            <p class="text-align">
+              Minimum, flexible or reduced rate. Discounts for large families,
+              children, youth, seniors or groups. Travel at unbeatable prices.
+            </p>
+            <a class="trip-link" href="#"
+              >See rates and discounts
+              <span><i class="fas fa-chevron-right"></i></span
+            ></a>
+          </div>
+          <div class="col-6 col-md-4 bus1"></div>
+          <div class="col-6 col-md-4 bus5"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-6 luggage"></div>
+          <div class="col-md-6 col-6 bg-less-blue">
+            <h4 class="mb-4">Luggage</h4>
+            <p class="text-align">
+              You can travel with up to 30 kilos of free luggage. Bring your
+              bike, your surfboard or your skis. And extra luggage if you need
+              it.
+            </p>
+            <a class="trip-link" href="#"
+              >See luggage <span><i class="fas fa-chevron-right"></i></span
+            ></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-4 bus4"></div>
+          <div class="col-6 col-md-4 bg-lightblue">
+            <h4 class="mb-4">Accesibility</h4>
+            <p class="text-align">
+              We guarantee access to our transport services to all people,
+              regardless of their age or ability to move.
+            </p>
+            <a class="trip-link-yellow" href="#"
+              >See accesibility<span><i class="fas fa-chevron-right"></i></span
+            ></a>
+          </div>
+          <div class="col-6 col-md-4 slope"></div>
+        </div>
+      </div>
+    </section>
+    <section id="routes" class="pt-5 pt-5 pb-5">
+      <div class="container-fluid">
+        <h3 class="text-center text-lighter text-uppercase mb-4 ft-5 bolder">
+          Destinations and routes
+        </h3>
+        <div class="row pt-5">
+          <div class="col col-routes">
+            <h2>
+              <a class="text-lighter bolder" href="national.html"
+                >National Routes</a
+              >
+            </h2>
+            <div class="row">
+              <div class="col-6 col-md-4 routes-n">A Coruña - Cuenca</div>
+              <div class="col-6 col-md-4 routes-n">Barcelona - Sevilla</div>
+              <div class="col-6 col-md-4 routes-n">Vitoria-Ciudad Real</div>
+            </div>
+            <div class="row">
+              <div class="col-6 col-md-4 routes-n">Cáceres - Alicante</div>
+              <div class="col-6 col-md-4 routes-n">Almería - Salamanca</div>
+              <div class="col-6 col-md-4 routes-n">Logroño - Huelva</div>
+            </div>
+            <div class="row">
+              <div class="col-6 col-md-4 routes-n">Oviedo - Toledo</div>
+              <div class="col-6 col-md-4 routes-n">Zaragoza - Córdoba</div>
+              <div class="col-6 col-md-4 routes-n">Cádiz - Santander</div>
+            </div>
+          </div>
+          <div class="col col-routes">
+            <h2>
+              <a class="text-lighter bolder" href="international.html"
+                >International Routes</a
+              >
+            </h2>
+            <div class="row row-routes">
+              <div class="col-6 col-md-4 routes-i">Marruecos</div>
+              <div class="col-6 col-md-4 routes-i">Portugal</div>
+            </div>
+            <div class="row row-routes">
+              <div class="col-6 col-md-4 routes-i">Andorra</div>
+              <div class="col-6 col-md-4 routes-i">Francia</div>
+            </div>
+            <div class="row row-routes">
+              <div class="col-6 col-md-4 routes-i">Alemania</div>
+              <div class="col-6 col-md-4 routes-i">Italia</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row mt-3 pb-5 bg-blue">
+        <div class=" ml text-center text-white">
+          © Copyright. Irina Sánchez ||
+          <i class="bi bi-facebook text-white pl-2 pr-2"></i
+          ><i class="bi bi-instagram text-white pr-2"></i
+          ><i class="bi bi-twitter text-white pr-2"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
