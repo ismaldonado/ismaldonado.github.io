@@ -1,0 +1,511 @@
+body {
+  color: #212529;
+  font-family: "Lora", serif;
+  background: rgb(241, 241, 241);
+}
+
+.bus1 {
+  background-image: url("bus1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bus4 {
+  background-image: url("bus4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bus5 {
+  background-image: url("bus5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.luggage {
+  background-image: url("luggage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slope {
+  background-image: url("slope.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container,
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bg-dark {
+  background: #212529;
+}
+.nav-link:hover {
+  color: #fcae07 !important;
+}
+
+.masthead {
+  width: 100%;
+  position: relative;
+  background: url("fondo.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.text-lighter {
+  color: #e47a15;
+}
+.text-center {
+  padding-top: 6rem;
+}
+.justify {
+  text-align: justify;
+}
+.align-items-center {
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+.bolder {
+  font-weight: bolder;
+}
+
+#home p {
+  font-size: 2rem;
+  color: #212529;
+}
+#home h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.404);
+  padding: 2rem;
+}
+.page-section {
+  height: 50rem;
+  background: rgb(241, 241, 241);
+}
+.pt-5 {
+  padding-top: 10rem;
+}
+.pr-2 {
+  padding-right: 2rem;
+}
+.pb-4 {
+  padding-bottom: 4rem !important;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+.ft-2 {
+  font-size: 2rem;
+}
+.ft-3 {
+  font-size: 3rem;
+}
+
+.ft-4 {
+  font-size: 4rem;
+}
+
+.ft-5 {
+  font-size: 5rem;
+}
+.mt-0 {
+  margin-top: -2rem;
+}
+.mt-6 {
+  margin-top: 80px;
+}
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
+}
+.ml-2 {
+  margin-left: 30% !important;
+}
+.ml-4 {
+  margin-left: 16rem !important;
+}
+.ml-5 {
+  margin-left: 20rem !important;
+}
+.ml-6 {
+  margin-left: 22rem !important;
+}
+.ml {
+  margin-left: 40%;
+}
+.btn {
+  margin-bottom: 32px !important;
+}
+.ss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-control {
+  border-bottom: 2px solid #e47a15 !important;
+  background: rgba(241, 241, 241, 0.733) !important;
+}
+.col-lg-3 {
+  padding-top: 0;
+  box-shadow: 0 0 15px 0 darkgray;
+}
+
+i {
+  color: #212529;
+}
+
+.h3:hover {
+  color: #212529;
+}
+.mb-2 a {
+  color: #212529;
+  font-weight: bold;
+  text-decoration: none;
+}
+.mb-2 a:hover {
+  color: #fcae07;
+  font-weight: bolder;
+}
+h2 a {
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: #fcae07;
+}
+.h3,
+.subtext {
+  color: #212529;
+}
+
+.subtext {
+  font-size: 1.25rem;
+}
+
+#rent,
+#vehicle-detail {
+  background: #212529;
+  color: rgb(241, 241, 241);
+}
+.text-middle {
+  text-align: center;
+}
+
+.col-rent p {
+  text-align: justify;
+}
+.col-rent p::first-line {
+  text-indent: 2rem;
+}
+
+.lil ul li {
+  margin-left: 3rem;
+}
+
+.lil-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background: #e47a15;
+  color: rgb(241, 241, 241);
+  border: 1px solid #e47a15;
+  border-radius: 5%;
+  width: 10rem;
+  height: 3rem;
+}
+.button:hover {
+  background: #fcae07;
+}
+
+.button a {
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: rgb(241, 241, 241);
+}
+
+.text-align {
+  text-align: justify;
+}
+
+.bg-blue {
+  background: #212529;
+  color: rgb(241, 241, 241);
+}
+
+.bg-blue a {
+  color: rgb(241, 241, 241);
+  font-size: 1.25rem;
+}
+
+#trip {
+  height: 70rem;
+}
+
+.trip-link {
+  text-decoration: none;
+}
+
+.trip-link:hover {
+  color: #e47a15;
+}
+
+.trip-link-yellow {
+  text-decoration: none;
+}
+.trip-link-yellow:hover {
+  color: #fcae07;
+}
+
+.bg-less-blue {
+  background: rgb(45, 63, 83);
+  padding: 3rem;
+  color: rgb(241, 241, 241);
+}
+
+.bg-less-blue a {
+  color: rgb(241, 241, 241);
+  font-size: 1.25rem;
+}
+
+.bg-lightblue {
+  background: #406280;
+  color: rgb(241, 241, 241);
+  padding: 3rem;
+}
+
+.bg-lightblue a {
+  color: rgb(241, 241, 241);
+  font-size: 1.25rem;
+}
+
+#routes {
+  background: rgb(232, 233, 233);
+  height: 50rem;
+}
+
+.col-routes {
+  margin: 0 3rem;
+  box-shadow: 0 0 15px 0 darkgray;
+  padding: 1.5rem;
+}
+
+.routes-n {
+  background: #212529;
+  color: rgb(241, 241, 241);
+  border: 1px solid #ffffff;
+  padding-top: 1rem;
+  height: 4rem;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.routes-i {
+  background: #406280;
+  color: rgb(241, 241, 241);
+  border: 1px solid #ffffff;
+  padding-top: 1rem;
+  height: 4rem;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.routes-i {
+  font-size: 1rem !important;
+}
+
+.row-routes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.routes-i {
+  text-align: center;
+}
+
+/* lineas */
+.padre {
+  overflow: hidden;
+  clear: both;
+}
+.table-blue {
+  width: 60%;
+  margin-top: 50px;
+  background-color: #406280;
+  color: white;
+  float: left;
+}
+
+td:hover {
+  background: rgb(47, 47, 71);
+}
+
+table a {
+  color: white;
+  text-decoration: none;
+}
+table a:hover {
+  color: rgb(245, 179, 92);
+}
+aside {
+  float: left;
+  margin-top: 50px;
+  margin-left: 15px;
+  width: 35%;
+}
+
+aside h4 {
+  padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  list-style: none;
+}
+
+.line li {
+  padding-left: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.message,
+.info {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+aside span {
+  margin-left: 0.5rem;
+}
+
+.info {
+  margin-top: 2rem;
+}
+
+/* VEHICLE SECTION STARS */
+
+.vehicle-detail {
+  height: 32rem;
+  padding-left: 3rem;
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(45, 63, 83);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* VEHICLE SECTION ENDS */
+
+/* PURCHASE-FORM STARTS */
+.row-form {
+  clear: both;
+  overflow: hidden;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+/* PURCHASE-FORM ENDS */
+
+/* CONTACT SECTION STARTS */
+
+.contact {
+  background: rgb(241, 241, 241);
+  padding: 1rem 0;
+  float: left;
+  width: 100%;
+}
+.contact h3 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  display: inline-block;
+  line-height: 5rem;
+}
+.contact-form {
+  margin-top: 3rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.7rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(47, 47, 71);
+  border: none;
+  border-bottom: 2px solid rgb(47, 47, 71);
+  resize: none;
+  margin-top: 25px;
+}
+.form-control:focus {
+  background: transparent;
+  box-shadow: none;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 2px solid rgb(47, 47, 71);
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: rgb(47, 47, 71) !important;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: rgb(47, 47, 71) !important;
+}
+.contact-button {
+  border: none;
+  padding: 12px 35px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: rgb(47, 47, 71);
+  margin-top: 30px;
+}
+.contact-button:hover {
+  background: rgb(47, 47, 71);
+}
+.address {
+  color: #242424;
+}
+.address h4 {
+  font-size: 2rem;
+}
+.address p {
+  font-size: 2rem;
+}
+.email i {
+  color: rgb(47, 47, 71);
+}
+.email span {
+  margin-left: 1rem;
+}
+
