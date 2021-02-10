@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(228, 227, 227);
+  font-size: 1rem;
+}
+.bloque {
+  margin-top: 3.75rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+section {
+  height: 9.375rem;;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+}
+.carta {
+  height: 6.875rem;
+  width: 4.688rem;
+  margin:1.25rem;
+  border-radius: 0.625rem;
+  margin: 1.25rem;
+  display: flex;
+  text-align: center; 
+}
+.back {
+  width: 4.68rem;
+  text-align: center;
+  border-radius: 0.625rem;
+
+}
+.azul {
+  background:rgb(49, 174, 252);
+  border-radius: 0.625rem;
+  box-shadow: 0px 5px 15px rgb(38, 38, 92);
+}
+.verde {
+  background-color: limegreen;
+  border-radius: 0.625rem;
+  box-shadow: 0px 5px 15px rgb(37, 83, 41);
+}
+.rojo {
+  background-color: red;
+  border-radius: 0.625rem;
+  box-shadow: 0px 5px 15px rgb(133, 42, 42);
+}
+.amarillo {
+  background-color: yellow;
+  border-radius: 0.625rem;
+  box-shadow: 0px 5px 15px rgb(89, 90, 42);
+}
+.violeta {
+  background-color: purple;
+  border-radius: 0.625rem;
+  box-shadow: 0px 5px 15px rgb(55, 28, 75);
+}
+.naranja {
+  background-color: #f5ad42;
+  border-radius: 0.625rem;
+  box-shadow: 0px 5px 15px rgb(128, 82, 51);
+}
+#left {
+  width: 16rem;
+  background-color:rgb(14, 14, 66);
+  margin-top: 3.8rem;
+  padding-right: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  float: right;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.instrucciones {
+  width: 12rem;
+  background: rgb(14, 14, 66);
+  color: white;
+  padding: 1rem;
+  margin-left: 1.2rem;
+  text-align: center;
+  line-height: 1.875rem;
+}
+.text-center {
+  margin: 0.5rem;
+}
+.bolder {
+  font-weight: bolder;
+}
+p {
+  font-size: 1.4rem;
+}
+#right {
+  width: 10rem;
+  background-color: rgba(199, 198, 198, 0.63);
+  margin-top: 3.8rem;
+  padding-right: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  float: right;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+button {
+  margin:10px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
