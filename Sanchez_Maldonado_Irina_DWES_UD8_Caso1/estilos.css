@@ -1,0 +1,73 @@
+body {
+  background-image: url("https://blog.phonehouse.es/wp-content/uploads/2019/04/Juego-de-Tronos.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloque {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+  width: 1000px;
+  border: 1px solid black;
+  
+}
+
+h1 {
+  margin-top: 30px;
+  margin-left: 30%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+button {
+  margin: 30px 40px; 
+}
+
+button a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: lightgrey;
+  font-weight: bolder;
+}
+
+.formulario {
+  width: 45%;
+  float: right;
+  margin: 20px;
+}
+
+.resumen {
+  margin: 65px 100px;
+  text-align: justify;
+  font-size: large;
+}
+
+
+/* estilos actoresTemp.php */
+
+.tabla {
+  margin: 30px 10%;
+  font-size: 20px;
+  background-color: rgba(206, 197, 197, 0.637);
+  color: rgb(117, 10, 10);
+}
+
