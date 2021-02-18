@@ -1,0 +1,44 @@
+.text-center {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .row {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .card {
+      margin-top: 40px;
+  }
+
+  img {
+    margin-left: 35%;
+  }
+
+  .btn-primary {
+    margin-left: 43%; 
+  }
+  .btn-primary a {
+      color: aliceblue;
+      text-decoration: none;
+  }
+
+  .btn-secondary{
+      color: black;
+      text-decoration: none;
+  }
+
+   a {
+    color: aliceblue !important;
+    text-decoration: none;
+  }
+
+  .btn-dark {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 48%;
+  }
+  .btn-dark a {
+    color: aliceblue;
+    text-decoration: none;
+  }
