@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- javascript -->
+    <script src="calculadora.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="estilos_calculadora.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bloque">
+      <div class="calculadora">
+        <input disabled type="text" id="resultado" value="" />
+        <section>
+          <button onclick="add('7')">7</button>
+          <button onclick="add('8')">8</button>
+          <button onclick="add('9')">9</button>
+          <button id="suma" onclick="add('+')">+</button>
+          <button id="reset" onclick="reset()">C</button>
+        </section>
+        <section>
+          <button onclick="add('4')">4</button>
+          <button onclick="add('5')">5</button>
+          <button onclick="add('6')">6</button>
+          <button id="resta" onclick="add('-')">-</button>
+          <button class="parentesis" onclick="add('(')">(</button>
+        </section>
+        <section>
+          <button onclick="add('1')">1</button>
+          <button onclick="add('2')">2</button>
+          <button onclick="add('3')">3</button>
+          <button id="multiplicacion" onclick="add('*')">*</button>
+          <button class="parentesis" onclick="add(')')">)</button>
+        </section>
+        <section>
+          <button onclick="add('0')">0</button>
+          <button onclick="add('.')">.</button>
+          <button id="division" onclick="add('/')">/</button>
+          <button id="igual" onclick="calcular()">=</button>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
