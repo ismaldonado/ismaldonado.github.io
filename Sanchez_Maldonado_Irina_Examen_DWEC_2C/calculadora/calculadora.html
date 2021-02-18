@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- javascript -->
+    <script src="tiempo.js"></script> 
+    <script src="calculadora.js"></script>
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="estilos_calculadora.css" />
+    <title>Examen DWEC 2C</title>
+  </head>
+
+  <body>
+    <aside id="left">
+      <h4 class="titulo">Introduce el código de la ciudad para conocer el pronóstico del tiempo</h4>
+        <table>
+            <tr>
+                <th>Ciudad</th>
+                <th>Codigo</th>
+            </tr>
+            <tr>
+                <td>Londres</td>
+                <td>2643743</td>
+            </tr>
+            <tr>
+                <td>Milan</td>
+                <td>3173435</td>
+            </tr>
+            <tr>
+                <td>Lisboa</td>
+                <td>2267057</td>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td>2988507</td>
+            </tr>
+            <tr>
+                <td>Madrid</td>
+                <td>3117735</td>
+            </tr>
+        </table>
+        <h4 class="pronostico">El pronóstico se visualizará a la derecha</h4>
+    </aside>
+    <div class="bloque">
+      <div class="calculadora">
+        <input disabled type="text" id="resultado" value="" />
+        <section>
+          <button onclick="add('7')">7</button>
+          <button onclick="add('8')">8</button>
+          <button onclick="add('9')">9</button>
+          <button id="suma" onclick="add('+')">+</button>
+          <button id="reset" onclick="reset()">C</button>
+        </section>
+        <section>
+          <button onclick="add('4')">4</button>
+          <button onclick="add('5')">5</button>
+          <button onclick="add('6')">6</button>
+          <button id="resta" onclick="add('-')">-</button>
+          <button class="parentesis" onclick="add('(')">(</button>
+        </section>
+        <section>
+          <button onclick="add('1')">1</button>
+          <button onclick="add('2')">2</button>
+          <button onclick="add('3')">3</button>
+          <button id="multiplicacion" onclick="add('*')">*</button>
+          <button class="parentesis" onclick="add(')')">)</button>
+        </section>
+        <section>
+          <button onclick="add('0')">0</button>
+          <button onclick="add('.')">.</button>
+          <button id="division" onclick="add('/')">/</button>
+          <button id="igual" onclick="calcular()">=</button>
+          <button id="tiempo" onclick="tiempo()">
+            <i class="fa fa-cloud" style="font-size: 27px"></i>
+          </button>
+        </section>
+      </div>
+    </div>
+    <aside id="left">
+      <div id="datos"> 
+        <ul>
+          <li id="temperatura"></li>
+          <li id="humedad"></li>
+          <li id="viento"></li>
+          <li id="visibilidad"></li>
+          <li id="sensacion_termica"></li>
+        </ul>
+      </div> 
+  </aside>
+  </body>
+</html>
